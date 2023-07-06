@@ -2,3 +2,36 @@
   margin: 0;
   padding: 0;
 }
+.nav-container {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.logo-pic {
+  width: 130px;
+  padding-left: 75px;
+}
+.logo {
+  width: 30%;
+}
+.menus {
+  display: flex;
+  justify-content: center;
+  height: 25px;
+  width: 70%;
+}
+.item {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 17px;
+  width: 85px;
+}
+.item:hover {
+  color: blue;
+  font-size: 20px;
+}
