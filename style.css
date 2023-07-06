@@ -3,7 +3,7 @@
   padding: 0;
 }
 .nav-container {
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(68, 66, 66);
   color: #fff;
   padding: 20px;
   list-style-type: none;
@@ -28,10 +28,42 @@
 .item {
   margin-right: 10px;
   padding: 5px;
-  font-size: 17px;
+  font-size: 20px;
   width: 85px;
 }
 .item:hover {
   color: blue;
-  font-size: 20px;
+  font-size: 22px;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-image: url("images/background.png"),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 20px;
+}
+.banner-img {
+  width: 300px;
+}
+.title {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.description {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.btn {
+  padding: 15px;
+  background-color: rgb(244, 21, 21);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
 }
