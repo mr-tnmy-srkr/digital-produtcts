@@ -54,10 +54,11 @@
 .title {
   font-size: 55px;
   font-weight: bold;
-  margin-bottom: 15px;
 }
 .description {
   font-size: 18px;
+  margin: top 15px;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 .btn {
@@ -66,4 +67,15 @@
   color: #fff;
   border: none;
   border-radius: 5px;
+}
+.title-2 {
+  text-align: center;
+}
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  padding-top: 20px;
+  align-items: center;
+  background-color: azure;
 }
